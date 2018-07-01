@@ -1,0 +1,31 @@
+C:\Visual Studio Projects\CustomWindowsForm\CustomWindowsForm\bin\Debug\CustomWindowsForm.exe.config
+C:\Visual Studio Projects\CustomWindowsForm\CustomWindowsForm\bin\Debug\CustomWindowsForm.exe
+C:\Visual Studio Projects\CustomWindowsForm\CustomWindowsForm\bin\Debug\CustomWindowsForm.pdb
+C:\Visual Studio Projects\CustomWindowsForm\CustomWindowsForm\obj\Debug\CustomWindowsForm.csprojResolveAssemblyReference.cache
+C:\Visual Studio Projects\CustomWindowsForm\CustomWindowsForm\obj\Debug\CustomWindowsForm.Properties.Resources.resources
+C:\Visual Studio Projects\CustomWindowsForm\CustomWindowsForm\obj\Debug\CustomWindowsForm.csproj.GenerateResource.Cache
+C:\Visual Studio Projects\CustomWindowsForm\CustomWindowsForm\obj\Debug\CustomWindowsForm.exe
+C:\Visual Studio Projects\CustomWindowsForm\CustomWindowsForm\obj\Debug\CustomWindowsForm.pdb
+C:\Visual Studio Projects\CustomWindowsForm\CustomWindowsForm\obj\Debug\CustomWindowsForm.BlackForm.resources
+C:\Visual Studio Projects\CustomWindowsForm\CustomWindowsForm\obj\Debug\CustomWindowsForm.BlueForm.resources
+C:\Visual Studio Projects\CustomWindowsForm\CustomWindowsForm\obj\Debug\CustomWindowsForm.Dashboard_Form.resources
+C:\Visual Studio Projects\CustomWindowsForm\CustomWindowsForm\obj\Debug\CustomWindowsForm.MainForm.resources
+F:\My Projects\HYPERFLEX_HMS\HYFEX_HMS\CustomWindowsForm\bin\Debug\CustomWindowsForm.exe.config
+F:\My Projects\HYPERFLEX_HMS\HYFEX_HMS\CustomWindowsForm\bin\Debug\CustomWindowsForm.exe
+F:\My Projects\HYPERFLEX_HMS\HYFEX_HMS\CustomWindowsForm\bin\Debug\CustomWindowsForm.pdb
+F:\My Projects\HYPERFLEX_HMS\HYFEX_HMS\CustomWindowsForm\obj\Debug\CustomWindowsForm.csprojResolveAssemblyReference.cache
+F:\My Projects\HYPERFLEX_HMS\HYFEX_HMS\CustomWindowsForm\obj\Debug\CustomWindowsForm.BlackForm.resources
+F:\My Projects\HYPERFLEX_HMS\HYFEX_HMS\CustomWindowsForm\obj\Debug\CustomWindowsForm.BlueForm.resources
+F:\My Projects\HYPERFLEX_HMS\HYFEX_HMS\CustomWindowsForm\obj\Debug\CustomWindowsForm.Dashboard_Form.resources
+F:\My Projects\HYPERFLEX_HMS\HYFEX_HMS\CustomWindowsForm\obj\Debug\CustomWindowsForm.MainForm.resources
+F:\My Projects\HYPERFLEX_HMS\HYFEX_HMS\CustomWindowsForm\obj\Debug\CustomWindowsForm.Properties.Resources.resources
+F:\My Projects\HYPERFLEX_HMS\HYFEX_HMS\CustomWindowsForm\obj\Debug\CustomWindowsForm.csproj.GenerateResource.Cache
+F:\My Projects\HYPERFLEX_HMS\HYFEX_HMS\CustomWindowsForm\obj\Debug\CustomWindowsForm.exe
+F:\My Projects\HYPERFLEX_HMS\HYFEX_HMS\CustomWindowsForm\obj\Debug\CustomWindowsForm.pdb
+F:\My Projects\HYPERFLEX_HMS\HYFEX_HMS\CustomWindowsForm\obj\Debug\CustomWindowsForm.DASHBOARD.resources
+F:\My Projects\HYPERFLEX_HMS\HYFEX_HMS\CustomWindowsForm\obj\Debug\CustomWindowsForm.LOGIN.resources
+F:\My Projects\HYPERFLEX_HMS\HYFEX_HMS\CustomWindowsForm\obj\Debug\CustomWindowsForm.FORMS.MsgBox.resources
+F:\My Projects\HYPERFLEX_HMS\HYFEX_HMS\CustomWindowsForm\bin\Debug\MySql.Data.dll
+F:\My Projects\HYPERFLEX_HMS\HYFEX_HMS\CustomWindowsForm\obj\Debug\CustomWindowsForm.CATEGORY.resources
+F:\My Projects\HYPERFLEX_HMS\HYFEX_HMS\CustomWindowsForm\obj\Debug\CustomWindowsForm.FORMS.ITEMS.resources
+F:\My Projects\HYPERFLEX_HMS\HYFEX_HMS\CustomWindowsForm\obj\Debug\CustomWindowsForm.FORMS.SAMPLE.resources
