@@ -37,24 +37,26 @@
             this.label3 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.CMB_CATEGORY = new CustomWindowsForm.hyflexComboBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.DGV_ITEM = new System.Windows.Forms.DataGridView();
-            this.CHK_SEARCH_ITEMNAME = new System.Windows.Forms.CheckBox();
-            this.BTN_NEW = new CustomWindowsForm.ShapedButton();
-            this.BTN_SAVE = new CustomWindowsForm.ShapedButton();
-            this.LBL_ITEM_ID = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.TXT_ITEMNAME = new CustomWindowsForm.hyflexTextbox();
-            this.label6 = new System.Windows.Forms.Label();
-            this.CMB_CATEGORY = new CustomWindowsForm.hyflexComboBox();
-            this.label7 = new System.Windows.Forms.Label();
-            this.TXT_BARCODE = new CustomWindowsForm.hyflexTextbox();
             this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.CHK_SEARCH_ITEMNAME = new System.Windows.Forms.CheckBox();
+            this.BTN_NEW = new CustomWindowsForm.ShapedButton();
+            this.BTN_SAVE = new CustomWindowsForm.ShapedButton();
+            this.LBL_ITEM_ID = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.TXT_BARCODE = new CustomWindowsForm.hyflexTextbox();
+            this.TXT_ITEMNAME = new CustomWindowsForm.hyflexTextbox();
+            this.button1 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
             this.TopPanel.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -142,6 +144,7 @@
             // groupBox1
             // 
             this.groupBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(250)))), ((int)(((byte)(250)))));
+            this.groupBox1.Controls.Add(this.button2);
             this.groupBox1.Controls.Add(this.CMB_CATEGORY);
             this.groupBox1.Controls.Add(this.groupBox2);
             this.groupBox1.Controls.Add(this.CHK_SEARCH_ITEMNAME);
@@ -160,6 +163,18 @@
             this.groupBox1.TabIndex = 19;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "NEW CATEGORY";
+            // 
+            // CMB_CATEGORY
+            // 
+            this.CMB_CATEGORY.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
+            this.CMB_CATEGORY.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
+            this.CMB_CATEGORY.F_color = System.Drawing.Color.LightGreen;
+            this.CMB_CATEGORY.Font = new System.Drawing.Font("Segoe UI", 10F);
+            this.CMB_CATEGORY.FormattingEnabled = true;
+            this.CMB_CATEGORY.Location = new System.Drawing.Point(318, 73);
+            this.CMB_CATEGORY.Name = "CMB_CATEGORY";
+            this.CMB_CATEGORY.Size = new System.Drawing.Size(215, 25);
+            this.CMB_CATEGORY.TabIndex = 1;
             // 
             // groupBox2
             // 
@@ -198,6 +213,39 @@
             this.DGV_ITEM.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.DGV_ITEM.Size = new System.Drawing.Size(549, 252);
             this.DGV_ITEM.TabIndex = 2;
+            // 
+            // Column1
+            // 
+            this.Column1.DataPropertyName = "item_id";
+            this.Column1.HeaderText = "ITEM ID";
+            this.Column1.Name = "Column1";
+            this.Column1.Visible = false;
+            // 
+            // Column4
+            // 
+            this.Column4.DataPropertyName = "barcode";
+            this.Column4.HeaderText = "BARCODE";
+            this.Column4.Name = "Column4";
+            // 
+            // Column3
+            // 
+            this.Column3.DataPropertyName = "caegory_name";
+            this.Column3.HeaderText = "ITEM CATEGORY";
+            this.Column3.Name = "Column3";
+            this.Column3.Width = 120;
+            // 
+            // Column2
+            // 
+            this.Column2.DataPropertyName = "item_name";
+            this.Column2.HeaderText = "ITEM NAME";
+            this.Column2.Name = "Column2";
+            this.Column2.Width = 250;
+            // 
+            // Column5
+            // 
+            this.Column5.DataPropertyName = "item_status";
+            this.Column5.HeaderText = "STATUS";
+            this.Column5.Name = "Column5";
             // 
             // CHK_SEARCH_ITEMNAME
             // 
@@ -284,6 +332,24 @@
             this.LBL_ITEM_ID.Text = "N/A";
             this.LBL_ITEM_ID.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(9, 79);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(59, 13);
+            this.label7.TabIndex = 1;
+            this.label7.Text = "BARCODE";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(246, 79);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(66, 13);
+            this.label6.TabIndex = 1;
+            this.label6.Text = "CATEGORY";
+            // 
             // label4
             // 
             this.label4.AutoSize = true;
@@ -302,47 +368,6 @@
             this.label5.TabIndex = 1;
             this.label5.Text = "ITEM ID";
             // 
-            // TXT_ITEMNAME
-            // 
-            this.TXT_ITEMNAME.F_color = System.Drawing.Color.LightGreen;
-            this.TXT_ITEMNAME.Font = new System.Drawing.Font("Segoe UI", 10F);
-            this.TXT_ITEMNAME.Location = new System.Drawing.Point(71, 129);
-            this.TXT_ITEMNAME.Name = "TXT_ITEMNAME";
-            this.TXT_ITEMNAME.Size = new System.Drawing.Size(488, 25);
-            this.TXT_ITEMNAME.TabIndex = 2;
-            this.TXT_ITEMNAME.User_null_check = CustomWindowsForm.hyflexTextbox.Resust.False;
-            this.TXT_ITEMNAME.User_selection = CustomWindowsForm.hyflexTextbox.String_Type.String;
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(246, 79);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(66, 13);
-            this.label6.TabIndex = 1;
-            this.label6.Text = "CATEGORY";
-            // 
-            // CMB_CATEGORY
-            // 
-            this.CMB_CATEGORY.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
-            this.CMB_CATEGORY.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.CMB_CATEGORY.F_color = System.Drawing.Color.LightGreen;
-            this.CMB_CATEGORY.Font = new System.Drawing.Font("Segoe UI", 10F);
-            this.CMB_CATEGORY.FormattingEnabled = true;
-            this.CMB_CATEGORY.Location = new System.Drawing.Point(318, 73);
-            this.CMB_CATEGORY.Name = "CMB_CATEGORY";
-            this.CMB_CATEGORY.Size = new System.Drawing.Size(241, 25);
-            this.CMB_CATEGORY.TabIndex = 1;
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(9, 79);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(59, 13);
-            this.label7.TabIndex = 1;
-            this.label7.Text = "BARCODE";
-            // 
             // TXT_BARCODE
             // 
             this.TXT_BARCODE.F_color = System.Drawing.Color.LightGreen;
@@ -354,38 +379,35 @@
             this.TXT_BARCODE.User_null_check = CustomWindowsForm.hyflexTextbox.Resust.False;
             this.TXT_BARCODE.User_selection = CustomWindowsForm.hyflexTextbox.String_Type.String;
             // 
-            // Column1
+            // TXT_ITEMNAME
             // 
-            this.Column1.DataPropertyName = "item_id";
-            this.Column1.HeaderText = "ITEM ID";
-            this.Column1.Name = "Column1";
-            this.Column1.Visible = false;
+            this.TXT_ITEMNAME.F_color = System.Drawing.Color.LightGreen;
+            this.TXT_ITEMNAME.Font = new System.Drawing.Font("Segoe UI", 10F);
+            this.TXT_ITEMNAME.Location = new System.Drawing.Point(71, 129);
+            this.TXT_ITEMNAME.Name = "TXT_ITEMNAME";
+            this.TXT_ITEMNAME.Size = new System.Drawing.Size(488, 25);
+            this.TXT_ITEMNAME.TabIndex = 2;
+            this.TXT_ITEMNAME.User_null_check = CustomWindowsForm.hyflexTextbox.Resust.False;
+            this.TXT_ITEMNAME.User_selection = CustomWindowsForm.hyflexTextbox.String_Type.String;
             // 
-            // Column4
+            // button1
             // 
-            this.Column4.DataPropertyName = "barcode";
-            this.Column4.HeaderText = "BARCODE";
-            this.Column4.Name = "Column4";
+            this.button1.Location = new System.Drawing.Point(579, 133);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(8, 8);
+            this.button1.TabIndex = 20;
+            this.button1.Text = "button1";
+            this.button1.UseVisualStyleBackColor = true;
             // 
-            // Column3
+            // button2
             // 
-            this.Column3.DataPropertyName = "caegory_name";
-            this.Column3.HeaderText = "ITEM CATEGORY";
-            this.Column3.Name = "Column3";
-            this.Column3.Width = 120;
-            // 
-            // Column2
-            // 
-            this.Column2.DataPropertyName = "item_name";
-            this.Column2.HeaderText = "ITEM NAME";
-            this.Column2.Name = "Column2";
-            this.Column2.Width = 250;
-            // 
-            // Column5
-            // 
-            this.Column5.DataPropertyName = "item_status";
-            this.Column5.HeaderText = "STATUS";
-            this.Column5.Name = "Column5";
+            this.button2.Location = new System.Drawing.Point(539, 73);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(20, 23);
+            this.button2.TabIndex = 7;
+            this.button2.Text = "R";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // ITEMS
             // 
@@ -393,6 +415,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
             this.ClientSize = new System.Drawing.Size(588, 548);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.label3);
@@ -442,5 +465,7 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn Column3;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column5;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button button1;
     }
 }

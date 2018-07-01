@@ -177,5 +177,10 @@ namespace CustomWindowsForm.FORMS
             CLS_ITEM.LOAD_CATEGORY(CMB_CATEGORY);
             LOAD_ITEM_lIST();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            CLS_ITEM.LOAD_CATEGORY(CMB_CATEGORY);
+        }
     }
 }
